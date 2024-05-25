@@ -19,12 +19,12 @@
     }
   },
   "dns": {
-    "servers": [
-        "fakeip": {
-        "enabled": true,
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fc00::/18"
-      },
+   "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    },
+    "servers": [       
       {
         "tag": "国际DNS",
         "address": "https://8.8.8.8/dns-query",
