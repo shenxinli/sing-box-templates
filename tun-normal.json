@@ -18,7 +18,7 @@
       "store_fakeip": false
     }
   },
-    "dns": {
+  "dns": {
     "fakeip": {
       "enabled": true,
       "inet4_range": "198.18.0.0/15",
