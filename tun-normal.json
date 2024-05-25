@@ -470,7 +470,7 @@
         "tag": "geoip_private",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geoip/private.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geoip/private.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -478,7 +478,7 @@
         "tag": "geosite_private",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/private.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/private.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -486,7 +486,7 @@
         "tag": "geosite_category-ads-all",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/category-ads-all.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/category-ads-all.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -494,7 +494,7 @@
         "tag": "download-process",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/download-process.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/download-process.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -502,7 +502,7 @@
         "tag": "geosite_apple",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/apple.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/apple.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -510,7 +510,7 @@
         "tag": "geosite_category-games@cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/category-games@cn.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/category-games@cn.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -518,7 +518,7 @@
         "tag": "geosite_category-games",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/category-games.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/category-games.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -526,7 +526,7 @@
         "tag": "geoip_google",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geoip/google.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geoip/google.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -534,7 +534,7 @@
         "tag": "geosite_google",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/google.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/google.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -542,7 +542,7 @@
         "tag": "geoip_facebook",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geoip/facebook.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geoip/facebook.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -550,7 +550,7 @@
         "tag": "geosite_meta",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/meta.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/meta.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -558,7 +558,7 @@
         "tag": "geosite_onedrive",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/onedrive.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/onedrive.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -566,7 +566,7 @@
         "tag": "geosite_openai",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/openai.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/openai.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -574,7 +574,7 @@
         "tag": "geosite_microsoft",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/microsoft.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/microsoft.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -582,7 +582,7 @@
         "tag": "geoip_telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geoip/telegram.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geoip/telegram.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -590,7 +590,7 @@
         "tag": "geosite_telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/telegram.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/telegram.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -598,7 +598,7 @@
         "tag": "geosite_geolocation-!cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/geolocation-!cn.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/geolocation-!cn.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -606,7 +606,7 @@
         "tag": "geoip_cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geoip/cn.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geoip/cn.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       },
@@ -614,7 +614,7 @@
         "tag": "geosite_cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/senzyo/sing-box-rules/master/geosite/cn.srs",
+        "url": "https://raw.kkgithub.com/shenxinli/sing-box-rules/master/geosite/cn.srs",
         "download_detour": "🐢 直连",
         "update_interval": "3d"
       }
