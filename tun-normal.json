@@ -18,13 +18,13 @@
       "store_fakeip": false
     }
   },
-  "dns": {
+    "dns": {
     "fakeip": {
       "enabled": true,
       "inet4_range": "198.18.0.0/15",
       "inet6_range": "fc00::/18"
     },
-    "servers": [
+    "servers": [       
       {
         "tag": "国际DNS",
         "address": "https://8.8.8.8/dns-query",
@@ -37,6 +37,7 @@
         "strategy": "prefer_ipv4",
         "detour": "🐢 直连"
       },
+      { "tag": "dns_fakeip", "address": "fakeip" },
       {
         "tag": "阻断DNS",
         "address": "rcode://success"
@@ -67,7 +68,9 @@
         "rule_set": "geosite_geolocation-!cn",
         "server": "国际DNS"
       }
-    ]
+    ],
+    "final": "国内DNS",
+    "independent_cache": true
   },
   "inbounds": [
     {
