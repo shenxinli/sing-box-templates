@@ -79,7 +79,7 @@
       "inet6_address": "fdfe:dcba:9876::1/126",
       "auto_route": true,
       "strict_route": true,
-      "stack": "system",
+      "stack": "mixed",
       "exclude_package": ["com.android.captiveportallogin"],
       "platform": {
         "http_proxy": {
