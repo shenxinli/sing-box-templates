@@ -54,7 +54,7 @@
     },
     {
       "type": "mixed",
-      "listen": "[::]",
+      "listen": "::",
       "listen_port": 7890,
       "sniff": true,
       "users": []
