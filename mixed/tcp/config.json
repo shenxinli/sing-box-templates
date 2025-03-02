@@ -22,7 +22,7 @@
   },
   "dns": {
     "servers": [
-      {"tag": 中国 DNS", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🐢 直连"},
+      {"tag": "中国 DNS", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🐢 直连"},
       {"tag": "国际 DNS", "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🚀 默认出站"}
     ],
     "rules": [
