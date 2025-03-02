@@ -21,10 +21,10 @@
     }
   },
   "dns": {
-    "servers": [
+     "servers": [
       {
         "tag": "国际 DNS",
-        "type": "https",
+        "type": "udp",
         "server": "dns.google",
         "domain_resolver": "google"
       },
@@ -35,7 +35,7 @@
       {
         "type": "udp",
         "tag": "google",
-        "server": "8.8.8.8"
+        "server": "1.1.1.1"
       }
     ],
     "rules": [
