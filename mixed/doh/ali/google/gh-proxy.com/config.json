@@ -360,6 +360,10 @@
     {
       "tag": "🐢 直连",
       "type": "direct"
+    },
+    {
+      "tag": "Proxy",
+      "type": "direct"
     }
   ],
   "route": {
