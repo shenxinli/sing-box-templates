@@ -451,7 +451,7 @@
       "type": "urltest",
       "outbounds": [
         "{all}",
-        "🐢 直连"
+        "🎯 全球直连"
       ],
       "filter": [
         {
@@ -471,7 +471,7 @@
       "type": "urltest",
       "outbounds": [
         "{all}",
-        "🐢 直连"
+        "🎯 全球直连"
       ],
       "filter": [
         {
