@@ -156,7 +156,8 @@
         "🇯🇵 日本节点",
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
-        "🇰🇷 韩国节点"
+        "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -170,6 +171,7 @@
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
         "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点",
         "🎯 全球直连"
       ]
     },
@@ -183,7 +185,8 @@
         "🇯🇵 日本节点",
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
-        "🇰🇷 韩国节点"
+        "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -196,7 +199,8 @@
         "🇯🇵 日本节点",
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
-        "🇰🇷 韩国节点"
+        "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -209,7 +213,8 @@
         "🇯🇵 日本节点",
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
-        "🇰🇷 韩国节点"
+        "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -222,7 +227,8 @@
         "🇯🇵 日本节点",
         "🇺🇲 美国节点",
         "🇸🇬 新加坡节点",
-        "🇰🇷 韩国节点"
+        "🇰🇷 韩国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -232,7 +238,8 @@
         "🎯 全球直连",
         "🇭🇰 香港节点",
         "🇯🇵 日本节点",
-        "🇺🇲 美国节点"
+        "🇺🇲 美国节点",
+        "🇹🇼 台湾节点"
       ]
     },
     {
@@ -309,7 +316,7 @@
         {
           "action": "include",
           "keywords": [
-            "🇰🇷|KR|🇰🇷|韩国|韩|Korea"
+            "🇰🇷|KR|kr|韩国|韩|Korea"
           ]
         }
       ]
@@ -328,6 +335,39 @@
             "🇺🇸|US|us|美国|美|United States"
           ]
         }
+      ]
+    },
+    {
+      "tag": "🇺🇲 美国节点",
+      "type": "selector",
+      "outbounds": [
+        "{all}",
+        "🔯 美国自动"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇺🇸|US|us|美国|美|United States"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇹🇼 台湾节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇹🇼|台湾|TW|Taiwan"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 台湾自动",
+        "{all}"
       ]
     },
     {
@@ -379,7 +419,7 @@
         {
           "action": "include",
           "keywords": [
-            "🇰🇷|KR|🇰🇷|韩国|韩|Korea"
+            "🇰🇷|KR|kr|韩国|韩|Korea"
           ]
         }
       ],
@@ -405,6 +445,46 @@
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
+    },
+    {
+      "tag": "🔯 日本自动",
+      "type": "urltest",
+      "outbounds": [
+        "{all}",
+        "🐢 直连"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇯🇵|日本|JP|jp|Japan"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 10,
+      "interrupt_exist_connections": true
+    },
+    {
+      "tag": "🔯 台湾自动",
+      "type": "urltest",
+      "outbounds": [
+        "{all}",
+        "🐢 直连"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇹🇼|台湾|TW|tw|Taiwan"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 10,
+      "interrupt_exist_connections": true
     },
     {
       "tag": "♻️ 自动选择",
