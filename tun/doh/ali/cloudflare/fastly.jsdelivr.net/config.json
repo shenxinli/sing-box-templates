@@ -259,10 +259,113 @@
       "interrupt_exist_connections": true
     },
     {
+      "type": "selector",
       "tag": "🇭🇰 香港节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇭🇰|香港|HK|Hong Kong"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 香港自动",
+        "{all}"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇯🇵 日本节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇯🇵|日本|JP|Japan"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 日本自动",
+        "{all}"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇰🇷 韩国节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇰🇷|韩国|KR|South Korea"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 韩国自动",
+        "{all}"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇹🇼 台湾节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇹🇼|台湾|TW|Taiwan"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 台湾自动",
+        "{all}"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇸🇬 新加坡节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇸🇬|新加坡|SG|Singapore"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 新加坡自动",
+        "{all}"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🇺🇸 美国节点",
+      "interrupt_exist_connections": true,
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇺🇸|美国|US|USA|United States"
+          ]
+        }
+      ],
+      "outbounds": [
+        "🔯 美国自动",
+        "{all}"
+      ]
+    },
+    {
+      "tag": "🔯 香港自动",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
@@ -278,10 +381,11 @@
       "interrupt_exist_connections": true
     },
     {
-      "tag": "🇯🇵 日本节点",
+      "tag": "🔯 日本自动",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
@@ -297,10 +401,11 @@
       "interrupt_exist_connections": true
     },
     {
-      "tag": "🇰🇷 韩国节点",
+      "tag": "🔯 韩国自动",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
@@ -316,10 +421,11 @@
       "interrupt_exist_connections": true
     },
     {
-      "tag": "🇹🇼 台湾节点",
+      "tag": "🔯 台湾节点",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
@@ -335,10 +441,11 @@
       "interrupt_exist_connections": true
     },
     {
-      "tag": "🇸🇬 新加坡节点",
+      "tag": "🔯 新加坡节点",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
@@ -354,10 +461,11 @@
       "interrupt_exist_connections": true
     },
     {
-      "tag": "🇺🇸 美国节点",
+      "tag": "🔯 美国节点",
       "type": "urltest",
       "outbounds": [
-        "{all}"
+        "{all}",
+        "🐢 直连"
       ],
       "filter": [
         {
